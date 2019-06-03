@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customer Management</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="Images/icons8-online-shop-favorite-100.png" type="image/x-icon">
+</head>
+
+<body background="Images/back2.jpg">
+<div class="togglearea">
+    <label for="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+</div>
+
+<input type="checkbox" id="toggle">
+
+<div class="navbar">
+
+    <a href="index.html">Home</a>
+    <a href="Customer-Management.html">Customer Management</a>
+    <a href="Item-Management.html">Item Management</a>
+    <a href="Place-Order.html">Place Order</a>
+    <a href="#">Settings</a>
+</div>
+
+<!--form-->
+
+<div class="container" style="margin-top: 50px;background-color:#6D4C41;text-align: center;color: white;font-weight: bold;font-size: 20px">
+    <legend id="title" style="color: white;font-size: 25px;font-weight: bold"> ADD A NEW CUSTOMER </legend>
+    <form action="action_page.php">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="Name" placeholder="Your name..">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="Age">Age</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="Age" name="Age" placeholder="Your Age..">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="Address">Address</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="Address" name="Address" placeholder="Your Address..">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="Salary">Salary</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="Salary" name="Salary" placeholder="Your Salary..">
+            </div>
+        </div>
+
+        <div class="container" style="text-align: center;background-color: #6D4C41">
+            <div class="btn-group" style="font-size: 30px;font-weight: bold;display: inline-block;background-color:#6D4C41">
+                <button>Register</button>
+                <button>Update</button>
+                <button>Delete</button>
+                <button>Reload</button>
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+</div>
+
+<table style="width:100%; border: 1px solid white; border-collapse: collapse;border-spacing: 5px; margin-bottom: 100px;font-size: 25px;font-weight: bold;color: white;margin-top: 50px;background-color: #6D4C41">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Address</th>
+    </tr>
+
+</table>
+
+
+
+
+</body>
+</html>
